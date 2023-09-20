@@ -1,11 +1,4 @@
 $(document).ready(()=>{
-    $('.carrossel').slick({
-        autoplay: true,
-    })
-
-    $('.hamburguer-menu').click(()=>{
-        $('nav').slideToggle();
-    })
 
     $("#phone").mask("(00) 00000-0000",{
         placeholder: "(00) 00000-0000"
